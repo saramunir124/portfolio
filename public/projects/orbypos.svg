@@ -1,0 +1,18 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F59E0B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#EF4444;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#grad2)"/>
+  <rect x="50" y="50" width="700" height="60" fill="rgba(255,255,255,0.25)" rx="8"/>
+  <rect x="50" y="140" width="320" height="400" fill="rgba(255,255,255,0.2)" rx="10"/>
+  <rect x="390" y="140" width="360" height="180" fill="rgba(255,255,255,0.2)" rx="10"/>
+  <rect x="390" y="340" width="360" height="200" fill="rgba(255,255,255,0.2)" rx="10"/>
+  <circle cx="100" cy="200" r="15" fill="rgba(255,255,255,0.4)"/>
+  <circle cx="100" cy="250" r="15" fill="rgba(255,255,255,0.4)"/>
+  <circle cx="100" cy="300" r="15" fill="rgba(255,255,255,0.4)"/>
+  <text x="400" y="280" font-family="Arial" font-size="42" font-weight="bold" fill="white" text-anchor="middle">OrbyPOS</text>
+  <text x="400" y="310" font-family="Arial" font-size="20" fill="rgba(255,255,255,0.9)" text-anchor="middle">Restaurant Management</text>
+</svg>

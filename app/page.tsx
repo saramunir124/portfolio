@@ -464,6 +464,151 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Basic Plans Section */}
+      <section className="py-20 px-6 bg-gradient-to-br from-indigo-50 via-blue-50 to-purple-50">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our Basic Packages</h2>
+            <p className="text-xl text-gray-600">Choose the perfect starting point for your project</p>
+          </div>
+          <div className="grid md:grid-cols-3 gap-8">
+            {/* WordPress Silver */}
+            <div className="bg-white rounded-2xl shadow-xl border-2 border-gray-200 overflow-hidden">
+              <div className="p-8">
+                <div className="text-center mb-4">
+                  <span className="text-4xl">💻</span>
+                </div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-2 text-center">WordPress Silver</h3>
+                <div className="mb-6 text-center">
+                  <span className="text-4xl font-bold text-indigo-600">$300</span>
+                  <span className="text-gray-600 ml-2 block mt-1">One-Time Cost</span>
+                </div>
+                <div className="space-y-3 mb-8">
+                  <div className="flex justify-between">
+                    <span className="text-gray-600 font-semibold">Website Platforms:</span>
+                    <span className="text-gray-900">WordPress</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-gray-600 font-semibold">CRM Setup:</span>
+                    <span className="text-gray-900">Basic setup (1 tool)</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-gray-600 font-semibold">Pages:</span>
+                    <span className="text-gray-900">Up to 3 pages</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-gray-600 font-semibold">Delivery:</span>
+                    <span className="text-gray-900">7-10 days</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-gray-600 font-semibold">Maintenance:</span>
+                    <span className="text-gray-900">$99/month</span>
+                  </div>
+                </div>
+                <Link 
+                  href="/pricing"
+                  className="block w-full bg-indigo-600 text-white text-center px-6 py-4 rounded-lg font-semibold hover:bg-indigo-700 transition-colors"
+                >
+                  Get Started
+                </Link>
+              </div>
+            </div>
+
+            {/* Shopify Silver */}
+            <div className="bg-white rounded-2xl shadow-xl border-2 border-gray-200 overflow-hidden">
+              <div className="p-8">
+                <div className="text-center mb-4">
+                  <span className="text-4xl">🛒</span>
+                </div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-2 text-center">Shopify Silver</h3>
+                <div className="mb-6 text-center">
+                  <span className="text-4xl font-bold text-indigo-600">$500</span>
+                  <span className="text-gray-600 ml-2 block mt-1">One-Time Cost</span>
+                </div>
+                <div className="space-y-3 mb-8">
+                  <div className="flex justify-between">
+                    <span className="text-gray-600 font-semibold">Website Platforms:</span>
+                    <span className="text-gray-900">Shopify</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-gray-600 font-semibold">CRM Setup:</span>
+                    <span className="text-gray-900">Basic setup (1 tool)</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-gray-600 font-semibold">Pages:</span>
+                    <span className="text-gray-900">Up to 3 pages</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-gray-600 font-semibold">Delivery:</span>
+                    <span className="text-gray-900">7-10 days</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-gray-600 font-semibold">Maintenance:</span>
+                    <span className="text-gray-900">$99/month</span>
+                  </div>
+                </div>
+                <Link 
+                  href="/pricing"
+                  className="block w-full bg-indigo-600 text-white text-center px-6 py-4 rounded-lg font-semibold hover:bg-indigo-700 transition-colors"
+                >
+                  Get Started
+                </Link>
+              </div>
+            </div>
+
+            {/* Next.js Silver */}
+            <div className="bg-white rounded-2xl shadow-xl border-2 border-gray-200 overflow-hidden">
+              <div className="p-8">
+                <div className="text-center mb-4">
+                  <span className="text-4xl">⚡</span>
+                </div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-2 text-center">Next.js Silver</h3>
+                <div className="mb-6 text-center">
+                  <span className="text-4xl font-bold text-indigo-600">$800</span>
+                  <span className="text-gray-600 ml-2 block mt-1">One-Time Cost</span>
+                </div>
+                <div className="space-y-3 mb-8">
+                  <div className="flex justify-between">
+                    <span className="text-gray-600 font-semibold">Website Platforms:</span>
+                    <span className="text-gray-900">Next.js (Full-stack)</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-gray-600 font-semibold">CRM Setup:</span>
+                    <span className="text-gray-900">Basic setup (1 tool)</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-gray-600 font-semibold">Pages:</span>
+                    <span className="text-gray-900">Up to 3 pages</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-gray-600 font-semibold">Delivery:</span>
+                    <span className="text-gray-900">7-10 days</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-gray-600 font-semibold">Maintenance:</span>
+                    <span className="text-gray-900">$99/month</span>
+                  </div>
+                </div>
+                <Link 
+                  href="/pricing"
+                  className="block w-full bg-indigo-600 text-white text-center px-6 py-4 rounded-lg font-semibold hover:bg-indigo-700 transition-colors"
+                >
+                  Get Started
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className="text-center mt-8">
+            <Link 
+              href="/pricing"
+              className="inline-block bg-gray-100 text-gray-700 px-8 py-3 rounded-lg font-semibold hover:bg-gray-200 transition-colors"
+            >
+              View All Packages →
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-24 px-6 bg-gradient-to-br from-blue-500 via-indigo-500 to-purple-500 relative overflow-hidden">
         <div className="absolute inset-0 bg-black/20"></div>

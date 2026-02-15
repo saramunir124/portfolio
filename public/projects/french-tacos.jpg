@@ -1,0 +1,15 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F97316;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#EAB308;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#grad5)"/>
+  <rect x="50" y="50" width="700" height="70" fill="rgba(255,255,255,0.25)" rx="10"/>
+  <rect x="50" y="150" width="340" height="400" fill="rgba(255,255,255,0.2)" rx="10"/>
+  <rect x="410" y="150" width="340" height="190" fill="rgba(255,255,255,0.2)" rx="10"/>
+  <rect x="410" y="360" width="340" height="190" fill="rgba(255,255,255,0.2)" rx="10"/>
+  <text x="580" y="280" font-family="Arial" font-size="36" font-weight="bold" fill="white" text-anchor="middle">French Tacos</text>
+  <text x="580" y="310" font-family="Arial" font-size="18" fill="rgba(255,255,255,0.9)" text-anchor="middle">Restaurant Menu</text>
+</svg>
